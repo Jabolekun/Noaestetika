@@ -1,0 +1,18 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectView>ProjectFiles</ProjectView>
+    <PublishUrlHistory>ftp://sacrosanct-win:heavy7366%40files.000webhost.com/Olaia/|ftp://files.000webhost.com/Olaia/|C:\Olaia\|D:\Dropbox\Olaia\|https://www.dropbox.com/sh/j5asrj79fapl79t/AADrNFObYJ9CKNPNXr6Hvu10a%3fdl=0/</PublishUrlHistory>
+    <InstallUrlHistory>https://noaestetika.codeplex.com/|http://sacrosanct-win:heavy7366%40files.000webhost.com/|http://files.000webhost.com/Olaia/|\\127.0.0.1\Dropbox\Olaia\|https://www.dropbox.com/sh/j5asrj79fapl79t/AADrNFObYJ9CKNPNXr6Hvu10a%3fdl=0/</InstallUrlHistory>
+    <SupportUrlHistory>
+    </SupportUrlHistory>
+    <UpdateUrlHistory>
+    </UpdateUrlHistory>
+    <BootstrapperUrlHistory>
+    </BootstrapperUrlHistory>
+    <FallbackCulture>es-ES</FallbackCulture>
+    <VerifyUploadedFiles>true</VerifyUploadedFiles>
+    <ErrorReportUrlHistory>
+    </ErrorReportUrlHistory>
+    <ReferencePath>C:\Program Files (x86)\Business Objects\Common\4.0\managed\dotnet2</ReferencePath>
+  </PropertyGroup>
+</Project>

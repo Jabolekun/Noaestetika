@@ -1,0 +1,31 @@
+﻿Public Class Producto_Stock_frm
+
+    Sub procesarPulsaciones(ByVal sender As Object, ByVal e As KeyEventArgs) Handles Me.KeyDown
+        Select Case e.KeyCode
+            Case Keys.Escape
+                volver_bt.PerformClick()
+        End Select
+    End Sub
+
+    Private Sub Producto_Stock_frm_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+        'TODO: esta línea de código carga datos en la tabla 'EsteticaDataset.NombreProducto' Puede moverla o quitarla según sea necesario.
+        Me.NombreProductoTableAdapter.Fill(Me.EsteticaDataset.NombreProducto)
+        DisableCloseButton(Me.Handle)
+        fecha_txt.Text = Today
+        hora_txt.Text = TimeOfDay
+    End Sub
+
+    Private Sub volver_bt_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles volver_bt.Click
+        Dim frm As New Menu_Productos_frm
+        frm.Show()
+        Me.Hide()
+    End Sub
+
+    Private Sub salir_bt_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles salir_bt.Click
+        salir(Me)
+    End Sub
+
+    Private Sub Timer1_Tick(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Timer1.Tick
+        hora_txt.Text = TimeOfDay
+    End Sub
+End Class
